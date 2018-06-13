@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -42,6 +42,7 @@ form div {
 .trips-images{
   width: 20em;
   height: 28em;
+  margin-bottom: 20px;
 }
 .main-img{
   width: 100%;
@@ -94,15 +95,13 @@ form div {
 /* .main-img{
  
 } */
-.nav-btn:link {
-  color: black;
-}
-.nav-btn:visited {
-  color: black;
+.nav-btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:darkblue;
 }
 
 .nav-btn:hover{
-  color: rgb(148, 144, 144);
+  color: lightseagreen;
 }
 
 .sidenav{
@@ -178,10 +177,10 @@ header.home-welcome {
   color: black;
 }
 .trips:hover{
-    color: rgb(148, 144, 144);
+    color: lightseagreen;
     text-decoration: none;
 }
-.featured-quest-location{
+/* .featured-quest-location{
   color: black;
 }
 .featured-quest-location:link {
@@ -208,7 +207,7 @@ header.home-welcome {
 .featured-quest-price:hover{
   color: rgb(148, 144, 144);
   text-decoration: none;
-}
+} */
 
 ul{
   color: black;
@@ -220,9 +219,6 @@ ul{
   color: rgb(148, 144, 144);
   text-decoration: none;
 }
-.no-match{
-
-}
 /* FEATURED QUESTS */
 /* add 2 last */
 .featured-quests-title {
@@ -231,11 +227,10 @@ ul{
   padding: 43px;
 }
 
-
-.featured-quest-img {
+/* .featured-quest-img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .total{
   text-align: right;

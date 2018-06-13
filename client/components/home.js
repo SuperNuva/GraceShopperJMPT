@@ -28,24 +28,24 @@ const Home = (props) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-4">
-                            <Link to={`/trips/${props.trips[0].id}`}>
-                                <img className="img-thumbnail" src={props.trips[0].imageUrl} />
-                                <h3 className="featured-quest-location">{props.trips[0].location}</h3>
-                                <h4 className="featured-quest-price">${props.trips[0].price}</h4>
+                            <Link to={`/trips/${props.trips[0].id}`} className="trips">
+                                <img className="trips-images" src={props.trips[0].imageUrl} />
+                                <h5 className="featured-quest-location">Location: {props.trips[0].location}</h5>
+                                <h6 className="featured-quest-price">Price: ${props.trips[0].price}</h6>
                             </Link>
                             </div>
                             <div className="col-sm-4">
-                            <Link to={`/trips/${props.trips[1].id}`}>
-                                <img className="img-thumbnail" src={props.trips[1].imageUrl} />
-                                <h3 className="featured-quest-location">{props.trips[1].location}</h3>
-                                <h4 className="featured-quest-price">${props.trips[1].price}</h4>
+                            <Link to={`/trips/${props.trips[1].id}`} className="trips">
+                                <img className="trips-images" src={props.trips[1].imageUrl} />
+                                <h5 className="featured-quest-location">Location: {props.trips[1].location}</h5>
+                                <h6 className="featured-quest-price">Price: ${props.trips[1].price}</h6>
                             </Link>
                             </div>
                             <div className="col-sm-4">
-                            <Link to={`/trips/${props.trips[2].id}`} className='trips'>
-                                <img className="img-thumbnail" src={props.trips[2].imageUrl} />
-                                <h3 className="featured-quest-location">{props.trips[2].location}</h3>
-                                <h4 className="featured-quest-price">${props.trips[2].price}</h4>
+                            <Link to={`/trips/${props.trips[5].id}`} className="trips">
+                                <img className="trips-images" src={props.trips[5].imageUrl} />
+                                <h5 className="featured-quest-location">Location: {props.trips[5].location}</h5>
+                                <h6 className="featured-quest-price">Price: ${props.trips[5].price}</h6>
                             </Link>
                             </div>
                         </div>

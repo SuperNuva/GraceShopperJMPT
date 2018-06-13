@@ -12,7 +12,7 @@ router.get('/', (req, res, next) => {
     })
      .then(orders => res.send(orders))
       .catch(next)
-    : res.send("Unauthorized. You do not have access.");
+    : res.send("Unauthorized. You do not have access!");
 });
 
 //Middleware for routes to /api/orders/user/:userId
@@ -75,13 +75,14 @@ router.post('/user/:userId', (req, res, next) => {
     .catch(next);
 });
 
-// delete an item from the cart
+
 router.get('/:orderId', (req, res, next) => {
     Order.findById(req.params.orderId)
     .then(order => res.send(order))
     .catch(next)
 });
 
+// delete an item from the cart
 router.delete('/:orderId', (req, res, next) => {
     Order.destroy({
       where: {

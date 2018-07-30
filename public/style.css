@@ -92,9 +92,7 @@ form div {
     margin-left: 35%;
     margin-top: 40px;
 }
-/* .main-img{
- 
-} */
+
 .nav-btn {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:darkblue;
@@ -104,9 +102,17 @@ form div {
   color: lightseagreen;
 }
 
-.sidenav{
+/* .sidenav{
   flex-shrink: 0;
+} */
+
+/* .sidebar-category{
+  margin-bottom: 40px;
 }
+.sidebar-trips:hover{
+  color: rgb(148, 144, 144);
+  text-decoration: none;
+} */
 
 /* Buttons */
 .create-trip-btn, .add-to-cart-btn, .login-btn, .checkout{
@@ -128,9 +134,6 @@ form div {
 .checkout:hover {
   background:rgb(238, 221, 186);
 }
-/* .nav-panel{
-  background-color: #eee;
-} */
 
 /* HOMEPAGE */
 /* HEADER */
@@ -180,45 +183,11 @@ header.home-welcome {
     color: lightseagreen;
     text-decoration: none;
 }
-/* .featured-quest-location{
-  color: black;
-}
-.featured-quest-location:link {
-  color: black;
-}
-
-.featured-quest-location:visited {
-  color: black;
-}
-.featured-quest-location:hover{
-  color: rgb(148, 144, 144);
-  text-decoration: none;
-}
-
-.featured-quest-price{
-  color: black;
-}
-.featured-quest-price:link {
-  color: black;
-}
-.featured-quest-price:visited {
-  color: black;
-}
-.featured-quest-price:hover{
-  color: rgb(148, 144, 144);
-  text-decoration: none;
-} */
 
 ul{
   color: black;
 }
-.sidebar-category{
-  margin-bottom: 40px;
-}
-.sidebar-trips:hover{
-  color: rgb(148, 144, 144);
-  text-decoration: none;
-}
+
 /* FEATURED QUESTS */
 /* add 2 last */
 .featured-quests-title {
@@ -226,11 +195,6 @@ ul{
   margin-top: 30px;
   padding: 43px;
 }
-
-/* .featured-quest-img {
-  max-width: 100%;
-  height: auto;
-} */
 
 .total{
   text-align: right;
